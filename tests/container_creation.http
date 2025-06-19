@@ -1,0 +1,25 @@
+POST  http://127.0.0.1:8000/127.0.0.1:8000/containers/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic tlee:auto 
+
+[
+    {        
+        "barcode": "TUBE001",
+        "location_x": 0,
+        "location_y": 0,
+        "location_name": "A1",
+        "name": "new container",
+        "container_type": 2,
+        "container_collection": 2
+    },
+    {
+         "barcode": "TUBE002",
+        "location_x": 0,
+        "location_y": 1,
+        "location_name": "B1",
+        "name": "new container",
+        "container_type": 2,
+        "container_collection": 2
+    }
+
+]

@@ -1,0 +1,11 @@
+POST  http://127.0.0.1:8000/container_collection/ HTTP/1.1
+Content-Type: application/json
+Authorization: Basic tlee:auto 
+
+{
+    "barcode":"empty",
+    "size": 48,
+    "name": "new test rack",
+    "description": "new test description",
+    "container_collection_type": "1"
+}
